@@ -10,6 +10,9 @@
 
 本作业由个人完成，采用c++进行滤镜效果的实现，使用CMake进行构建工程，使用Lenna图进行效果评价。
 
+工具库：
+- opencv-4.4.0
+
 ## 1 人像美肤
 
 美颜主要分为两个部分：`美白和磨皮`
@@ -38,8 +41,6 @@ make
 ```shell
 ./Demo
 ```
-
-
 
 相关链接：
 1. python实现人像美颜 https://blog.csdn.net/weixin_41010198/article/details/87858867
