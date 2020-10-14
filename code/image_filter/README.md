@@ -11,7 +11,7 @@
 本作业由个人完成，采用c++进行滤镜效果的实现，使用CMake进行构建工程，使用Lenna图进行效果评价。
 
 工具库：
-- opencv-4.4.0
+- [opencv-4.4.0](https://opencv.org/releases/)
 
 ## 1 人像美肤
 
@@ -47,3 +47,4 @@ make
 2. Applying Bilateral Filter http://opencvexamples.blogspot.com/2013/10/applying-bilateral-filter.html
 3. Bilateral Smoothing https://www.opencv-srf.com/2018/03/bilateral-smoothing.html
 4. 双边滤波（Bilateral Filter）原理解析及代码实现 https://blog.csdn.net/molihong28/article/details/89194757
+5. OpenCV双边滤波详解及实代码实现 https://blog.csdn.net/qq_36359022/article/details/80198890
