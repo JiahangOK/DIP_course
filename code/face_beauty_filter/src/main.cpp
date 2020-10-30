@@ -157,10 +157,9 @@ int main(int argc, char **argv) {
     // bilateralFilter(src, dst_opencv, 15, 80, 80);
     // imwrite("../imgs/out_lenna_opencv.jpg", dst_opencv);
 
-    // 双边滤波 --- 自己实现
+    // 人脸双边滤波 --- 自己实现
     Mat dst_my;
     myBilateralFilter(src, dst_my, 15, 30, 15);
     imwrite("../imgs/out_lenna_my.jpg", dst_my);
-
     return 0;
 }

@@ -20,8 +20,8 @@
 ### 编译安装opencv
 
 ```shell
-mkdir code/image_filter/3rdparty/opencv-4.4.0/build
-cd code/image_filter/3rdparty/opencv-4.4.0/build
+mkdir code/face_beauty_filter/3rdparty/opencv-4.4.0/build
+cd code/face_beauty_filter/3rdparty/opencv-4.4.0/build
 cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=../../../lib/opencv ..
 make -j8 
 make install
@@ -30,6 +30,7 @@ make install
 ### 构建
 
 ```shell
+cd code/face_beauty_filter
 mkdir build
 cd build
 cmake ..
@@ -48,3 +49,6 @@ make
 3. Bilateral Smoothing https://www.opencv-srf.com/2018/03/bilateral-smoothing.html
 4. 双边滤波（Bilateral Filter）原理解析及代码实现 https://blog.csdn.net/molihong28/article/details/89194757
 5. OpenCV双边滤波详解及实代码实现 https://blog.csdn.net/qq_36359022/article/details/80198890
+
+## 2 晶格化效果
+
