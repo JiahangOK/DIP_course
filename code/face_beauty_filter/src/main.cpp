@@ -57,6 +57,9 @@ void myBilateralFilter(Mat &src, Mat &dst, int d, double sigma_color,
     CascadeClassifier faceDetector;
     std::string faceCascadeFilename =
         "../data/haarcascade_frontalface_default.xml";
+    
+    // 加载脸部检测器
+    faceDetector.load(faceCascadeFilename);
 
     // 人脸检测只试用于灰度图像
     Mat gray;
