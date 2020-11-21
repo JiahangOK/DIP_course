@@ -155,7 +155,7 @@ int main(int argc, char **argv) {
     Mat dst_my;
     // k含义是大小大致相等的超像素的个数
     int k = 64;
-    int m_importance = 40;
+    int m_importance = 30;
     int iteration_times = 10;
     mySLIC(src, dst_my, k, m_importance, iteration_times);
     imwrite("../imgs/out_lenna_my.jpg", dst_my);

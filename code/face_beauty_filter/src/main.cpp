@@ -138,7 +138,7 @@ void myBilateralFilter(Mat &src, Mat &dst, int d, double sigma_color,
         }
     }
     // 画出人脸框
-    // cv::rectangle(dst, faces[0], cv::Scalar(255, 0, 0), 1, 8, 0);
+    cv::rectangle(dst, faces[0], cv::Scalar(255, 0, 0), 1, 8, 0);
 }
 
 int main(int argc, char **argv) {
@@ -152,6 +152,6 @@ int main(int argc, char **argv) {
     // 人脸双边滤波 --- 自己实现
     Mat dst_my;
     myBilateralFilter(src, dst_my, 15, 30, 15);
-    imwrite("../imgs/out_lenna_my.jpg", dst_my);
+    imwrite("../imgs/out_lenna_my_box.jpg", dst_my);
     return 0;
 }
